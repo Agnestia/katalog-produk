@@ -210,8 +210,33 @@ export default function Hero() {
               <span>Lihat Produk & Harga Grosir</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="group-hover:translate-x-1 transition-transform"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </motion.a>
+                    <motion.a
+            whileHover={{ scale: 1.05, translateY: -2 }}
+            whileTap={{ scale: 0.95 }}
+            href="/pesan"
+            className="group flex items-center justify-center gap-2 bg-[#2F3E34] text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-[#2F3E34]/20 hover:shadow-[#2F3E34]/40 transition-all duration-300"
+          >
+            <span>🛒 Pesan Sekarang</span>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="group-hover:translate-x-1 transition-transform"
+            >
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </motion.a>
           </motion.div>
         </motion.div>
+        
 
         {/* KOLOM KANAN: TATA LETAK ESTETIK GAMBAR */}
         <motion.div 
